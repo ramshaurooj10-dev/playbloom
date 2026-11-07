@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    
+    <!-- Primary Title & Meta Description (Play-Store-only app: no web SEO,
+         no Vercel canonical/OG URLs, no JSON-LD — the Play listing carries
+         the store presence and pricing. GA4 tag removed in Wave 2.) -->
+    <title>PlayBloom – Preschool Learning Games & Activities for Kids</title>
+    <meta
+      name="description"
+      content="PlayBloom is a fun preschool learning app for kids ages 3–6 with ABC phonics, counting, colors, shapes, matching games, animal learning and interactive educational activities."
+    />
+
+    <!-- PWA Manifest & App Icons -->
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#0EA5E9" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="alternate icon" type="image/png" href="/favicon.png" />
+
+    <!-- iOS / Safari PWA meta tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="PlayBloom" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+  </head>
+  <body>
+    <div id="root">
+      <!-- Semantic crawlable fallback for search engines prior to React client hydration -->
+      <main class="sr-only" aria-hidden="false">
+        <h1>PlayBloom – Preschool Learning Games & Activities for Kids</h1>
+        <p>
+          PlayBloom is an interactive educational learning application designed specifically for preschool children ages 3 to 6, parents, and early childhood educators.
+        </p>
+        <section>
+          <h2>Interactive Preschool Learning Activities</h2>
+          <ul>
+            <li><strong>ABC Phonics & Letter Recognition:</strong> Interactive alphabet games, letter tracing, and phonics sounds.</li>
+            <li><strong>Counting & Early Math:</strong> Number learning 1 to 10, balloon counting, size sorting, and early subtraction concepts.</li>
+            <li><strong>Colors & Shapes:</strong> Color recognition, color mixing, shape matching, and guided worksheet coloring.</li>
+            <li><strong>Matching & Observation:</strong> Find hidden objects, memory card matching, shadow matching, and odd one out.</li>
+            <li><strong>Animals & Healthy Habits:</strong> Animal food matching, feeding animals, healthy food sorting, clean room, and daily routines.</li>
+            <li><strong>Traffic Light & Road Safety:</strong> Color recognition teaching Red = Stop, Yellow = Slow, and Green = Go.</li>
+          </ul>
+        </section>
+      </main>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

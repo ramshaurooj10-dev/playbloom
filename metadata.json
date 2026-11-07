@@ -1,0 +1,6 @@
+{
+  "name": "Playroom",
+  "description": "Playroom is a fun preschool learning app for kids ages 3–6 with ABC phonics, counting, colors, shapes, matching games, animal learning and interactive educational activities.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
